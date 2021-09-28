@@ -13,7 +13,7 @@ class GameViewModel : ViewModel() {
 
     private val _currentWordCount = MutableLiveData(0) // 라운드 수
     val currentWordCount: LiveData<Int>
-        get() = _currentWordCount
+        get() = _currentWordCount //getter
 
     private val _currentScrambledWord = MutableLiveData("") // 출제된 단어
     val currentScrambledWords: LiveData<String>
